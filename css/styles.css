@@ -271,3 +271,73 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
 }
 
+
+/*media for small screens*/
+
+
+
+@media only screen 
+  and (min-device-width: 250px) 
+  and (max-device-width: 750px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    
+    /*title section*/
+    .container-fluid{
+        padding:3% 7% 7%;
+    }
+
+    #title .navbar-brand {
+        font-size: 3rem;
+    }
+
+    #title nav a{
+        font-size:2.5rem
+    }
+
+    .navbar-toggler{
+        font-size:3.25rem
+    }
+
+    .intro h1{
+        font-size:3.3rem
+    }
+
+    .intro button{
+        font-size:2.25rem
+    }
+
+    .iphone-img img {
+        margin-top:10%
+    }
+
+    /*features section*/
+
+    #features h3{
+        font-size:3rem
+    }
+
+    #features p{
+        font-size:2.5rem
+    }
+
+    #features i{
+        font-size:5rem
+    }
+
+    /*testimonials section*/
+
+        #testimonials em{
+            font-size:2rem
+        }
+
+
+        /* pricing section */
+        #pricing h2{
+            font-size:3rem
+        }
+
+        #pricing .price-card p{
+            font-size:1.5rem
+        }
+}
+
