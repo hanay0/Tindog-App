@@ -1,2 +1,1 @@
-# Tindog-App
-Landing page for an App
+TinDog Starting Files
